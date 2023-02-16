@@ -1,0 +1,104 @@
+html,
+body,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: "Manrope", sans-serif;
+  background-color: rgb(2, 131, 77);
+}
+
+.title {
+  text-align: center;
+  color: rgb(245, 255, 247);
+  font-size: 5rem;
+}
+
+.subtext {
+  color: rgb(208, 246, 219);
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 2vh;
+}
+.caption {
+  margin: 1px;
+  font-size: 2rem;
+}
+
+.default {
+  border-radius: 15px;
+  font-size: 3rem;
+  width: 16em;
+  background-color: rgb(33, 105, 71);
+  border-width: 5px;
+  border-color: rgb(188, 246, 203);
+  text-align: center;
+  box-shadow: 5px 10px rgb(4, 28, 8);
+  margin-bottom: 2vh;
+  padding-bottom: 2vh;
+}
+
+
+.link {
+  height: min-content;
+  color: aliceblue;
+  font-size: 2rem;
+} 
+
+
+
+.link {
+  height: min-content;
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0);
+  background: linear-gradient(90deg, #1095c1 50%, #000 0) var(--_p, 100%) / 200%
+    no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  transition: 0.4s;
+}
+
+
+body {
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  place-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+ 
+
+.default1 {
+  border-radius: 15px;
+  box-shadow: 5px 10px rgb(4, 28, 8);
+  font-size: 3rem;
+  width: 16em;
+  background-color: rgb(36, 91, 65);
+  border-width: 5px;
+  border-color: rgb(195, 197, 195);
+  text-align: center;
+  box-shadow: rgb(0, 0, 0);
+  margin-bottom: 2vh;
+  padding-bottom: 2vh;
+  animation-name: colorswitch;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+.default2:hover {
+  animation-name: bounce;
+  animation-timing-function: ease;
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
