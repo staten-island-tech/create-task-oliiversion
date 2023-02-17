@@ -24,4 +24,5 @@ function calculategpa(form) {
   if (gpa == "F") {
     gpa = 0;
   }
+  document.getElementById("result1").innerHTML = gpa;
 }
