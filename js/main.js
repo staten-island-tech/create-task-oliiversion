@@ -1,2 +1,2 @@
-import { letters } from "./lettersscript";
-import { average } from "./averagescript";
+import letters from "./lettersscript";
+import average from "./averagescript";

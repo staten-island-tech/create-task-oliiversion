@@ -5,3 +5,23 @@ const letters = [
   { letter: "D", number: [65, 66, 67, 68, 69] },
   { letter: "F", number: x < 65 },
 ];
+
+function calculategpa(form) {
+  var gpa = form.gpa2.value;
+
+  if (gpa == "A") {
+    gpa = 4;
+  }
+  if (gpa == "B") {
+    gpa = 3;
+  }
+  if (gpa == "C") {
+    gpa = 2;
+  }
+  if (gpa == "D") {
+    gpa = 1;
+  }
+  if (gpa == "F") {
+    gpa = 0;
+  }
+}
