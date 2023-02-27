@@ -51,7 +51,7 @@ body,
 .link {
   height: min-content;
   font-size: 2rem;
-  color: rgba(255, 255, 255, 0);
+  color: rgb(255, 255, 255);
   background: linear-gradient(90deg, #1095c1 50%, #000 0) var(--_p, 100%) / 200%
     no-repeat;
   -webkit-background-clip: text;
@@ -87,18 +87,5 @@ body {
   animation-iteration-count: infinite;
 }
 
-.default2:hover {
-  animation-name: bounce;
-  animation-timing-function: ease;
-}
-@keyframes bounce {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-100px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
+.submit {
+text-align: center;}
