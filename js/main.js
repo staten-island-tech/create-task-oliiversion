@@ -5,6 +5,5 @@ import { numberGrade, letterGrade } from "./lettersscript";
 
 
 DOMSelectors.makecard.addEventListener("click", function () {
-    let numberGrade = DOMSelectors.songtitle.value;
-    let artistname = DOMSelectors.artistname.value;
-    let image = DOMSelectors.image.value;
+    let numberGrade = DOMSelectors.numberGrade.value;
+    let letterGrade = DOMSelectors.letterGrade.value;
