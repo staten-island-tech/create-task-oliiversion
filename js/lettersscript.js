@@ -22,6 +22,18 @@ function convert(numberGrade) {
   return letterGrade;
 }
 
+const letterGrade = [
+  { letterGrade: "A" <= 100 },
+  { letterGrade: "B" < 90 },
+  { letterGrade: "C" < 80 },
+  { letterGrade: "D" < 70 },
+  { letterGrade: "F" < 65 },
+];
+
+addEventListener("submit", function (letterGrade) {
+  letterGrade.push(letterGrade);
+});
+
 function convert(letterGrade) {
   let letterGrade = undefined;
 
