@@ -27,17 +27,17 @@ function convert(letterGrade) {
 
   if ((letterGrade = "F")) {
     GPA = "0";
-  } else if (numberGrade < 70) {
-    letterGrade = "D";
-  } else if (numberGrade < 80) {
-    letterGrade = "C";
-  } else if (numberGrade < 90) {
-    letterGrade = "B";
-  } else if (numberGrade <= 100) {
-    letterGrade = "A";
+  } else if ((letterGrade = "D")) {
+    letterGrade = "1";
+  } else if ((numberGrade = "C")) {
+    letterGrade = "2";
+  } else if ((numberGrade = "B")) {
+    letterGrade = "3";
+  } else if ((numberGrade = "A")) {
+    letterGrade = "4";
   }
 
-  return letterGrade;
+  return GPA;
 }
 
-module.exports = { numberGrade, letterGrade };
+module.exports = { numberGrade, letterGrade, GPA };

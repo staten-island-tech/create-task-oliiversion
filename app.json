@@ -1,0 +1,19 @@
+{
+    "name": "create-task",
+    "description": "Simple GPA Calculator",
+    "keywords": [ "GPA, Average, Grade" ],
+    "website": " ",
+    "repository": "https://github.com/oliiversion/create-task",
+    "logo": " ",
+    "success_url": "/",
+    "env": {},
+    "formation": {
+      "web": {
+        "quantity": 1,
+        "size": "free"
+      }
+    },
+    "image": " ",
+    "stack": " "
+  }
+  
