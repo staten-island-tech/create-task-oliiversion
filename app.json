@@ -1,0 +1,16 @@
+
+{
+    "name": "ap-csp-gpa-calculator",
+    "description": "A simple GPA calculator",
+    "website": " ",
+    "repository": "",
+   "success_url": "/",
+    "env": {},
+    "formation": {
+      "web": {
+        "quantity": 1,
+        "size": "free"
+      }
+    }
+  }
+  

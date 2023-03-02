@@ -1,32 +1,32 @@
 
-let numberGrade = []
+let avgGrade = []
 
-addEventListener("submit", function(numberGrade) {
-  numberGrade.push(numberGrade)
+addEventListener("submit", function(avgGrade) {
+  avgGrade.push(avgGrade)
 })
 
 
 
 
 
-function convert(numberGrade){
-  let letterGrade = undefined;
+function convert(avgGrade){
+  let gpa = undefined;
 
-  if (numberGrade < 65) {
-    letterGrade = "F"
+  if (avgGrade < 65) {
+    gpa = "F"
   }
-  else if (numberGrade < 70) {
-    letterGrade = "D"}
-  else if (numberGrade < 80) {
-    letterGrade = "C"}
-  else if (numberGrade < 90) {
-    letterGrade = "B"}
-  else if (numberGrade <= 100) {
-    letterGrade = "A"}
+  else if (avgGrade < 70) {
+    gpa = "D"}
+  else if (avgGrade < 80) {
+    gpa = "C"}
+  else if (avgGrade < 90) {
+    gpa = "B"}
+  else if (avgGrade <= 100) {
+    gpa = "A"}
 
-    return letterGrade;
+    return gpa;
 }
 
 
 
-module.exports = {numberGrade, letterGrade}
+module.exports = {avgGrade, gpa}
