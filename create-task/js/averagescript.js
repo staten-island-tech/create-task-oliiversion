@@ -1,6 +1,6 @@
 const form = document.getElementById("form");
 const resultDiv = document.getElementById("result");
-
+console.log(form);
 form.addEventListener("submit", (event) => {
   event.preventDefault();
 
