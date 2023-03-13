@@ -1,6 +1,5 @@
 let numberGrade = [];
 
-<<<<<<< HEAD
 let avgGrade = []
 
 addEventListener("submit", function(avgGrade) {
@@ -27,28 +26,6 @@ function convert(avgGrade){
     gpa = "A"}
 
     return gpa;
-=======
-addEventListener("submit", function (numberGrade) {
-  numberGrade.push(numberGrade);
-});
-
-function convert(numberGrade) {
-  let letterGrade = undefined;
-
-  if (numberGrade < 65) {
-    letterGrade = "F";
-  } else if (numberGrade < 70) {
-    letterGrade = "D";
-  } else if (numberGrade < 80) {
-    letterGrade = "C";
-  } else if (numberGrade < 90) {
-    letterGrade = "B";
-  } else if (numberGrade <= 100) {
-    letterGrade = "A";
-  }
-
-  return letterGrade;
->>>>>>> 41929354bbd1f90245bb7fbd8ff7b0ac57092e3a
 }
 
 const letterGrade = [
